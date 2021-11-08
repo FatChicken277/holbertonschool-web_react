@@ -1,0 +1,56 @@
+:root {
+  --holberton: #e1344b;
+}
+
+.App {
+  text-align: center;
+  font-size: calc(5px + 2vmin);
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+hr.solid {
+  border-top: 3px solid var(--holberton);
+  margin: 0;
+}
+
+.App-logo {
+  height: 25vmin;
+  width: 25vmin;
+  margin-right: 5rem;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 25vh;
+  max-height: 25vh;
+  display: flex;
+  align-items: center;
+  color: var(--holberton);
+  padding: 1rem;
+  margin: 0.5rem;
+}
+
+.App-body {
+  background-color: #ffffff;
+  min-height: 50vh;
+  max-height: auto;
+  display: flex;
+  padding: 2rem;
+  margin: 0.5rem;
+}
+
+p.credits {
+  font-style: italic;
+  margin: 0px;
+  padding: 10px;
+}
+
+.App-footer {
+  background-color: #ffffff;
+  min-height: 5vh;
+  max-height: 5vh;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  margin: 0.5rem;
+}
