@@ -1,0 +1,15 @@
+:root {
+  --holberton: #e1344b;
+}
+
+.Notifications {
+    height: 15vh;
+
+    padding: 2rem 4rem;
+
+    outline: 3px solid var(--holberton);
+    outline-offset: -20px;
+
+    font-size: calc(5px + 2vmin);
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+}
