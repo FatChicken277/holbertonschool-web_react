@@ -3,8 +3,6 @@
 }
 
 .Notifications {
-    height: 15vh;
-
     padding: 2rem 4rem;
 
     outline: 3px solid var(--holberton);
