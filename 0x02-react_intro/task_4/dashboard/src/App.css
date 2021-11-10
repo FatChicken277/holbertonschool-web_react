@@ -1,0 +1,78 @@
+:root {
+  --holberton: #e1344b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  margin: 0 10px;
+
+  /* background-color: red; */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+
+  height: 74vh;
+  text-align: center;
+  margin: 0;
+
+  font-size: calc(5px + 2vmin);
+  font-family: Arial, Helvetica, Verdana, sans-serif;
+  /* background-color: yellow; */
+}
+
+hr.solid {
+  margin: 0;
+  border-top: 3px solid var(--holberton);
+}
+
+.App-logo {
+  height: 20vmin;
+  width: 20vmin;
+  margin-right: 3rem;
+}
+
+.App-header {
+  display: flex;
+
+  max-height: 20vh;
+  margin: 0.5rem;
+  padding: 1rem;
+
+  align-items: center;
+
+  color: var(--holberton);
+  /* background-color: blue; */
+}
+
+.App-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  margin: 0.5rem;
+  padding: 2rem;
+
+  /* background-color: green; */
+}
+
+p.credits {
+  margin: 0px;
+  padding: 10px;
+
+  font-style: italic;
+}
+
+.App-footer {
+  max-height: 5vh;
+  margin: 0.5rem;
+
+  /* background-color: blue; */
+}
