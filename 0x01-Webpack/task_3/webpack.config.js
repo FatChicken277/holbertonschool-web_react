@@ -14,9 +14,7 @@ module.exports = {
   plugins: [new HtmlWebpackPlugin(), new CleanWebpackPlugin()],
   devtool: 'inline-source-map',
   devServer: {
-    static: {
-      directory: path.join(__dirname, 'public'),
-    },
+    contentBase: path.join(__dirname, './public'),
     compress: true,
     port: 8564,
   },
