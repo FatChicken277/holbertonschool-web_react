@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
   mode: 'development',
   entry: {
-    all: ['./header/header.js', './body/body.js', './footer/footer.js'],
+    all: ['./modules/header/header.js', './modules/body/body.js', './modules/footer/footer.js'],
   },
   output: {
     filename: '[name].bundle.js',
