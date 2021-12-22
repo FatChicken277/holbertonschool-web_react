@@ -35,5 +35,6 @@ module.exports = {
     },
     open: true,
     compress: true,
+    hot: true,
   },
 };
